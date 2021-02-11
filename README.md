@@ -1,5 +1,6 @@
-# easy_delete
-Deleting ( send to trash ) multiple files based on extension(s) and file name in a given folder ( or within subfolders of the given folder as well ). It works on "any match" logic.
+# easy_delete_move
+* Deleting ( send to trash ) files based on extension(s) and file name in a given folder (or and subfolders of the given folder ). "Any match" logic.
+* Movind files based on extension(s) and file name in a given folder (or and subfolders of the given source folder). "Any match" logic. - skips if file already exists
 
 # Instructions
 There are 2 modes: Tree and Root
@@ -14,10 +15,13 @@ Files are selected based on whether file name starts with, has or ends with the 
 
 Multiple conditions of STARTSWITH, HAS or ENDSWITH should be separated by a comma (','). e.g "A, C, Image". You can put only 'enter' as the condition to delete all files with the given extension(s). 
 
-Script start and end datetime, mode, condition(s), extension(s), target and deleted files are logged in C:\Users\USER\AppData\Local\easy_delete\logs.log .
+First letter of action/mode/condition is considered a valid choice as well.
+
+#### "Enter" = all . You can use it to delete or move every file regardless of extensions or name.
+
+Logs in: C:\Users\USER\AppData\Local\easy_delete_move\logs.log 
 
 # Extras
-If anyone wants to use the .exe directly it can be found [here](https://github.com/startedwithpython/easy_delete/releases/tag/1.0.0). It will be blocked by AVs so you'll need to exclude it. Only works on W10.
-
+If anyone wants to use the .exe directly it can be found [here](https://github.com/startedwithpython/easy_delete/releases/tag/2.00). It might be blocked by AVs so you might need to exclude it.
 # Notes
-#### BE CAREFUL WITH USAGE OF "ENTER". e.g YOU COULD REMOVE EVERY FILE IN THE FOLDER(subfolders) BY USING "ENTER" FOR EXTENSIONS AND CONDITION.
+Only works on W10.
