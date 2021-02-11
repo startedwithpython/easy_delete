@@ -22,6 +22,6 @@ First letter of action/mode/condition is considered a valid choice as well.
 Logs in: C:\Users\USER\AppData\Local\easy_delete_move\logs.log 
 
 # Extras
-If anyone wants to use the .exe directly it can be found [here](https://github.com/startedwithpython/easy_delete/releases/tag/2.00). It might be blocked by AVs so you might need to exclude it.
+If anyone wants to use the .exe directly it can be found [here](https://github.com/startedwithpython/easy_delete_move/releases/tag/2.00). It might be blocked by AVs so you might need to exclude it.
 # Notes
 Only works on W10.
